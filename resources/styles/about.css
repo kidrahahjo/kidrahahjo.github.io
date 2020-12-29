@@ -1,0 +1,85 @@
+.my-description {
+    display: flex;
+    margin-top: 2%;
+    height: 100vh;
+}
+
+
+.my-intro {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 12%;
+    margin-top: 3%;
+    height: 60vh;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding-left: 8%;
+}
+
+
+.my-circular-image {
+    width: 40%;
+    padding-left: 4%;
+    padding-top: 2%;
+    margin-top: 3%;
+    height: 60vh;
+}
+
+
+.my-name {
+    margin-top: 20%;
+    padding-left: 8%;
+    font-size: x-large;
+    height: 90px;
+}
+
+
+.my-position {
+    margin-top: 0;
+    padding-left: 8%;
+}
+
+
+.my-position h2     {
+    margin-top: 0;
+    font-size: xx-large;
+}
+
+
+.my-brief-experience {
+    margin-top: 0;
+    padding-left: 8%;
+}
+
+
+.my-brief-experience h3{
+    margin-top: 0;
+    font-size: x-large;
+}
+
+
+.navbar-links img {
+    max-width: 30px;
+    max-width: 30px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+
+.navbar-links a {
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+
+.my-circular-image img {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
