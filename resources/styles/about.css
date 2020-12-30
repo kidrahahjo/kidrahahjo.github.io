@@ -3,6 +3,7 @@
     height: 100vh;
     width: 100%;
     margin-top: 3%;
+    margin-bottom: 5%;
 }
 
 
@@ -83,6 +84,7 @@
     max-height: 32vw;
     cursor: pointer;
     border-radius: 50%;
+    border: ridge;
 }
 
 
@@ -93,6 +95,7 @@
         height: 100vh;
         width: 100%;
         justify-content: center;
+        margin-bottom: 5%;
     }
 
 
@@ -120,6 +123,8 @@
         max-height: 36vw;
         cursor: pointer;
         border-radius: 50%;
+        border: ridge;
+        margin-top: 5%;
     }
 
     .navbar-links img{
@@ -136,6 +141,8 @@
             cursor: pointer;
             border-radius: 50%;
             margin-top: 2%;
+            border: ridge;
+            margin-top: 10px;
         }
 
         .navbar-links img{
@@ -191,6 +198,7 @@
             max-height: 46vw;
             cursor: pointer;
             border-radius: 50%;
+            border: ridge;
         }
 
         .navbar-links img{
@@ -254,6 +262,7 @@
             cursor: pointer;
             border-radius: 50%;
             margin-top: 10%;
+            border: ridge;
         }
 
         .navbar-links img{
