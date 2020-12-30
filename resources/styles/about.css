@@ -71,7 +71,7 @@
 
 .navbar-links img{
     max-width: 32px;
-    max-width: 32px;
+    max-height: 32px;
     cursor: pointer;
     margin-top: 2vh;
     margin-right: 3.5vw;
@@ -80,7 +80,7 @@
 
 .my-image img {
     max-width: 32vw;
-    max-width: 32vw;
+    max-height: 32vw;
     cursor: pointer;
     border-radius: 50%;
 }
@@ -117,14 +117,14 @@
 
     .my-image img {
         max-width: 36vw;
-        max-width: 36vw;
+        max-height: 36vw;
         cursor: pointer;
         border-radius: 50%;
     }
 
     .navbar-links img{
         max-width: 30px;
-        max-width: 30px;
+        max-height: 30px;
         cursor: pointer;
         margin-right: 8vw;
     }
@@ -132,7 +132,7 @@
     @media (max-width: 800px) {
         .my-image img {
             max-width: 42vw;
-            max-width: 42vw;
+            max-height: 42vw;
             cursor: pointer;
             border-radius: 50%;
             margin-top: 2%;
@@ -140,7 +140,7 @@
 
         .navbar-links img{
             max-width: 28px;
-            max-width: 28px;
+            max-height: 28px;
             cursor: pointer;
             margin-right: 7vw;
         }
@@ -188,14 +188,14 @@
         .my-image img {
             width: 52%;
             max-width: 46vw;
-            max-width: 46vw;
+            max-height: 46vw;
             cursor: pointer;
             border-radius: 50%;
         }
 
         .navbar-links img{
             max-width: 24px;
-            max-width: 24px;
+            max-height: 24px;
             cursor: pointer;
             margin-right: 4vw;
         }
@@ -250,7 +250,7 @@
 
         .my-image img {
             max-width: 46vw;
-            max-width: 46vw;
+            max-height: 46vw;
             cursor: pointer;
             border-radius: 50%;
             margin-top: 10%;
@@ -258,7 +258,7 @@
 
         .navbar-links img{
             max-width: 20px;
-            max-width: 20px;
+            max-height: 20px;
             cursor: pointer;
             margin-right: 4vw;
         }
