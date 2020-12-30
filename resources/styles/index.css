@@ -1,10 +1,12 @@
 html, body {
     margin: 0;
     padding: 0;
+    scroll-behavior: auto;
 }
 
 body {
     background: #121212;
-    font-family: "Lora";
     color: #F3F3F3;
+    font-family: cpl;
 }
+

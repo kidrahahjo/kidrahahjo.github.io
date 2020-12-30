@@ -5,29 +5,27 @@
 
 
 .experience-text h1 {
-    font-weight: bold;
     font-size: xx-large;
+    font-family: cpb;
 }
+
 
 .my-experience {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     height: 55vh;
-    overflow-x: scroll;
     margin-left: 8vw;
     margin-right: 8vw;
-}
-
-
-.my-experience {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    margin-top: 2%;
+    margin-bottom: 2%;
+    -ms-overflow-style: none;  /* Hide scrollbar for E and Edge */
+    scrollbar-width: none;  /* Hide scrollbar for Firefox */
 }
 
 
 .my-experience::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+    display: none; /*Hide scrollbar for Chrome, Safari and Opera */
 }
 
 
@@ -39,167 +37,145 @@
     width: 20vw;
     align-items: center;
     justify-content: center;
+    background-color: #222222;
+    margin-right: 10px;
 }
 
+
 .experience-card img{
-    width: 50%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
 }
+
 
 .experience-card h2 {
     font-size: x-large;
     margin-bottom: 0;
-    font-weight: normal;
     text-align: center;
 }
+
 
 .experience-card h3 {
     font-size: large;
     margin-bottom: 0;
     margin-top: 0;
-    font-weight: lighter;
     text-align: center;
 }
 
 
 @media (max-width: 1750px) {
     .experience-text h1 {
-        font-weight: bold;
         font-size: x-large;
     }
 
+
     .experience-card {
-        display: flex;
-        flex-direction: column;
-        flex: 0 0 auto;
-        height: 40vh;
-        width: 28vw;
-        align-items: center;
-        justify-content: center;
+        height: 52.5vh;
+        width: 21vw;
     }
 
-    .experience-card img{
-        width: 35%;
-        height: 35%;
-    }
 
     .experience-card h2 {
         font-size: large;
-        margin-bottom: 0;
-        font-weight: normal;
-        text-align: center;
     }
+
 
     .experience-card h3 {
         font-size: small;
-        margin-bottom: 0;
-        margin-top: 0;
-        font-weight: lighter;
-        text-align: center;
     }
 
-    @media (max-width: 950px) {
+
+    @media (max-width: 1200px) {
         .my-experience {
-            height: 45vh;
+            height: 70vh;
         }
 
 
         .experience-card {
-            display: flex;
-            flex-direction: column;
-            flex: 0 0 auto;
-            height: 40vh;
+            height: 60vh;
             width: 40vw;
-            align-items: center;
-            justify-content: center;
         }
 
         .experience-card img{
-            width: 30%;
-            height: 30%;
+            width: 250px;
+            height: 250px;
         }
+
+        .experience-card h2 {
+            font-size: x-large;
+        }
+
+
+        .experience-card h3 {
+            font-size: large;
+        }
+
     }
 
-    @media (max-width: 650px) {
-        .experience-text h1 {
-            font-weight: bold;
-            font-size: larger;
-        }
 
+    @media (max-width: 850px) {
         .my-experience {
-            display: flex;
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            height: 40vh;
-            overflow-x: scroll;
+            height: 75vh;
             margin-left: 4vw;
             margin-right: 4vw;
         }
 
+
         .experience-card {
-            display: flex;
-            flex-direction: column;
-            flex: 0 0 auto;
-            height: 35vh;
+            height: 65vh;
             width: 50vw;
-            align-items: center;
-            justify-content: center;
         }
 
+
         .experience-card img{
-            width: 35%;
-            height: 38%;
+            width: 280px;
+            height: 280px;
         }
     }
 
-    @media (max-width: 400px) {
+
+    @media (max-width: 650px) {
         .my-experience {
-            height: 45vh;
+            height: 65vh;
         }
 
-        .experience-text h1 {
-            font-weight: bold;
-            font-size: small;
-        }
-
-        .my-experience {
-            display: flex;
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            height: 45vh;
-            overflow-x: scroll;
-            margin-left: 0vw;
-            margin-right: 0vw;
-        }
 
         .experience-card {
-            display: flex;
-            flex-direction: column;
-            flex: 0 0 auto;
-            height: 40vh;
+            height: 55vh;
             width: 60vw;
-            align-items: center;
-            justify-content: center;
+        }
+
+
+        .experience-card img{
+            width: 280px;
+            height: 280px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .my-experience {
+            height: 60vh;
+        }
+
+
+        .experience-card {
+            height: 50vh;
+            width: 60vw;
+        }
+
+
+        .experience-card h2 {
+            font-size: large;
+        }
+
+
+        .experience-card h3 {
+            font-size: small;
         }
 
         .experience-card img{
-            width: 35%;
-            height: 32%;
-        }
-
-        .experience-card h2 {
-            font-size: small;
-            margin-bottom: 0;
-            font-weight: normal;
-            text-align: center;
-        }
-
-        .experience-card h3 {
-            font-size: x-small;
-            margin-bottom: 0;
-            margin-top: 0;
-            font-weight: lighter;
-            text-align: center;
+            width: 200px;
+            height: 200px;
         }
     }
 }
