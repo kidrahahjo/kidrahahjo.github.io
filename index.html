@@ -10,170 +10,98 @@
     <link rel="stylesheet" href="resources/styles/experience.css">
 
     <script src="resources/scripts/helper.js"></script>
-    <script type="text/javascript">
-      let width = screen.availWidth;
-      if (width < 1500)
-        alert("Psssst, I am still working on this website. It is not optimised for your device yet, please visit from a laptop or desktop.");
-    </script>
   </head>
   <body>
-    <div class="my-description" id="aboutme">
+    <div class="my-description">
       <div class="my-intro">
-        <div class="my-name">
-          <h1><i> Hey, I am Hardik </i></h1>
-        </div>
-        <div class="my-position">
-          <h2><i> Product Analyst and Data Engineer </i></h2>
-        </div>
-        <div class="my-brief-experience">
-          <h3><i>
-            I am a Junior Data Scientist at <a style="color:#000;" href="https://thesplash.unicornplatform.com/product/" target="_blank">The Splash</a>. <br>
-            Former Python Developer at <a style="color:#000;" href="https://summerofcode.withgoogle.com" target="_blank">Google Summer of Code 2020</a>.</i></h3>
-        </div>
+        <h1>
+          Hey, I am Hardik
+        </h1>
+        <h2>
+          Product Analyst and Data Engineer
+        </h2>
+        <h3>
+          I am a Junior Data Scientist at <a style="color:#000;" href="https://thesplash.unicornplatform.com/product/" target="_blank">The Splash</a>. <br>
+          Former Python Developer at <a style="color:#000;" href="https://summerofcode.withgoogle.com" target="_blank">Google Summer of Code 2020</a>.
+        </h3>
         <div class="navbar-links">
-          <a href="resources/resume/hardik-resume.pdf" target="_blank"><img onclick="open_link('resume');" src="resources/images/social/resume.png" title="Resume"></img></a>
+          <img onclick="open_link('resume');" src="resources/images/social/resume.png" title="Resume"></img>
           <img onclick="open_link('email');" src="resources/images/social/email.png" title="Email"></img>
           <img onclick="open_link('linkedin');" src="resources/images/social/linkedin.svg" title="LinkedIn"></img>
           <img onclick="open_link('twitter');" src="resources/images/social/twitter.png" title="Twitter"></img>
           <img onclick="open_link('facebook');" src="resources/images/social/facebook.svg" title="Facebook"></img>
         </div>
       </div>
-      <div class="my-circular-image">
+      <div class="my-image">
         <img src="resources/images/me/hardik-image.jpg"> </img>
       </div>
     </div>
 
-    <div class="my-experience" id="experience">
-      <div class="experience-1">
-        <div class="experience-container">
-          <div class="experience-img">
-            <img src="resources/images/companies/thesplash.png" alt="The Splash">
-          </div>
-          <div class="experience-text">
-            <h3> The Splash </h3>
-            <h4> Junior Data Scientist </h4>
-            <p> PRESENT </p>
-          </div>
-          <div class="overlay splash">
-            <p>
-              <strong><a style="color:#fff;" href="https://thesplash.unicornplatform.com/product/" target="_blank">The Splash</a> is an Australian Startup which is your go-to-place to find alternatives across different stores.</strong> <br><br>
-              <i>
-                I developed a data pipeline to ingest and process product feed. <br><br>
-                I automated the process, from fetching product data from merchant to calculate and upload the product recommendations to Amazon RDS. <br><br>
-                I also developed an overall similarity metric for suggesting top 8 recommendations from nearly 500M different item categories. <br><br>
-                Currently, I am working on developing metrics to track the performance of the recommendation algorithm.</p>
-              </i>
-            </div>
-        </div>
+    <div class="experience-text">
+      <h1>
+        To see my experiences, scroll left!
+      </h1>
+    </div>
 
-        <div class="experience-container">
-          <div class="experience-img">
-            <img src="resources/images/companies/signac.png" alt="signac">
-          </div>
-          <div class="experience-text">
-            <h3> signac </h3>
-            <h4> Project Committer </h4>
-            <p> PRESENT </p>
-          </div>
-          <div class="overlay signac">
-            <p class="signac-text">
-              <strong>
-                The <a style="color:#fff;" href="https://signac.io" target="_blank">signac</a> framework supports researchers in managing project-related data with a well-defined indexable storage layout for data and metadata.
-                This streamlines post-processing and analysis and makes data collectively accessible.
-              </strong> <br> <br>
-              <i>
-                I am responsible for triaging active issues, evaluating code contributions, and working on the roadmap for the framework.
-              </i>
-            </p>
-          </div>
-        </div>
-
-        <div class="experience-container">
-          <div class="experience-img">
-            <img src="resources/images/companies/gsoc.png" alt="Google Summer of Code">
-          </div>
-          <div class="experience-text">
-          <h3> Google Summer of Code 2020 </h3>
-            <h4> Python Developer </h4>
-            <p> JUN 2020 - AUG 2020 </p>
-          </div>
-          <div class="overlay gsoc">
-            <p class="gsoc-text">
-              <strong>
-                The <a style="color:#fff;" href="https://summerofcode.withgoogle.com" target="_blank"> Google Summer of Code </a> is a global program focused on bringing more student developers into open source software development. <br><br>
-              </strong>
-              <i>
-                I designed and implemented a feature for aggregation workflows, which allows users to perform computations over subsets of a signac data space. <br><br>
-                I also refactored core data structures and internal API to allow for greater flexibility in task execution and computational efficiency.
-              </i>
-            </p>
-
-          </div>
-        </div>
+    <div class="my-experience">
+      <div class="experience-card">
+        <img src="resources/images/companies/thesplash.png">
+        <h2>THE SPLASH</h2>
+        <h3>JUNIOR DATA SCIENTIST</h3>
       </div>
+      <div class="experience-card">
+        <img src="resources/images/companies/signac.png">
+        <h2>SIGNAC</h2>
+        <h3>PROJECT COMMITTER</h3>
+      </div>
+      <div class="experience-card">
+        <img src="resources/images/companies/gsoc.png">
+        <h2>GOOGLE SUMMER OF CODE</h2>
+        <h3> PYTHON DEVELOPER </h3>
+      </div>
+      <div class="experience-card">
+        <img src="resources/images/companies/iitr.png">
+        <h2>IIT ROORKEE</h2>
+        <h3>MACHINE LEARNING RESEARCH INTERN</h3>
+      </div>
+      <div class="experience-card">
+        <img src="resources/images/companies/thomso.png">
+        <h2>THOMSO, IIT ROORKEE</h2>
+        <h3>ANDROID DEVELOPER</h3>
+      </div>
+    </div>
 
-      <div class="experience-2">
-        <div class="experience-container">
-          <div class="experience-img">
-            <img class="iitrimg" src="resources/images/companies/iitr.png" alt="IIT Roorkee">
-          </div>
-          <div class="experience-text">
-            <h3> IIT Roorkee </h3>
-            <h4> Machine Learning Research Intern </h4>
-            <p> JAN 2020 - JUL 2020 </p>
-          </div>
-          <div class="overlay iitr">
-            <p class="iitr-text">
-              <i>
-                Under <a style="color:#fff;" href="https://www.iitr.ac.in/~CH/Ashwini_Kumar_Sharma" target="_blank">Prof. Ashwini Sharma</a>, I completed two machine learning projects. <br><br>
-                I produced mathematical equations using Genetic Programing to suggest best environmental parameters for pretreatment of algal biomass. <br><br>
-                I also developed a forecasting model for predicting the possibility of algal bloom in Lake Erie, North America.
-              </i>
-            </p>
-          </div>
-        </div>
 
-        <div class="experience-container">
-          <div class="experience-img">
-            <img src="resources/images/companies/thomso.png" alt="signac">
-          </div>
-          <div class="experience-text">
-            <h3> Thomso, IIT Roorkee </h3>
-            <h4> Android Developer </h4>
-            <p> OCT 2019 </p>
-          </div>
-          <div class="overlay thomso">
-            <p class="thomso-text">
-              <strong>
-                <a style="color:#fff;" href="https://thomso.in" target="_blank">Thomso</a> is the largest cultural festival of North India attracting crowd over 30,000 people. <br><br>
-              </strong>
-              <i>
-                I developed android applications which helped in the registration of the participants and verify their registration for security purpose.
-              </i>
-            </p>
-          </div>
-        </div>
-
-        <div class="experience-container">
-          <div class="experience-img">
-            <img src="resources/images/companies/arp.png" alt="Google Summer of Code">
-          </div>
-          <div class="experience-text">
-          <h3> Academic Reinforcement Program </h3>
-            <h4> Teaching Assistant </h4>
-            <p> JUL 2019 - DEC 2019 </p>
-          </div>
-          <div class="overlay arp">
-            <p class="arp-text">
-              <strong>
-                <a style="color:#fff;" href="http://arp.iitr.ac.in/" target="_blank">A.R.P.</a> is a platform to apportionate knowledge with the entire campus by adept seniors therewithal giving them hands-on experience in becoming a faculty's teaching assistant and the opportunity to serve as a chaperone for the freshmen.
-              </strong> <br><br>
-              <i>
-                I mentored the first-year students and helped them understand the basic concepts of the programming language C++ and numerical methods like the Newton-Raphson method, Regula-Falsi method, Interpolation techniques, etc.
-              </i>
-            </p>
-          </div>
-        </div>
+    <div class="experience-text">
+      <h1>
+        To see my extra-curriculars, scroll left!
+      </h1>
+    </div>
+    <div class="my-experience">
+      <div class="experience-card">
+        <img src="resources/images/companies/thomso.png">
+        <h2>THOMSO, IIT ROORKEE</h2>
+        <h3>ORGANISING COMMITTEE MEMBER</h3>
+      </div>
+      <div class="experience-card">
+        <img src="resources/images/companies/smp.svg">
+        <h2>SMP, IIT ROORKEE</h2>
+        <h3>MENTOR</h3>
+      </div>
+      <div class="experience-card">
+        <img src="resources/images/companies/arp.png">
+        <h2>ARP, IIT ROORKEE</h2>
+        <h3>TEACHING ASSISTANT</h3>
+      </div>
+      <div class="experience-card">
+        <img src="resources/images/companies/iitr.png">
+        <h2>IIT ROORKEE</h2>
+        <h3>MAINTENANCE COUNCIL MEMBER</h3>
+      </div>
+      <div class="experience-card">
+        <img src="resources/images/companies/iitr.png">
+        <h2>IIT ROORKEE</h2>
+        <h3>CULTURAL COUNCIL MEMBER</h3>
       </div>
     </div>
   </body>

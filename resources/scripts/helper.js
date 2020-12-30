@@ -1,5 +1,8 @@
 function open_link(name) {
-    if (name == "email") {
+    if (name == 'resume') {
+        window.open("resources/resume/hardik-resume.pdf", "_blank");
+    }
+    else if (name == "email") {
         window.open("mailto:kidrahahjo@gmail.com", "_blank");
     }
     else if (name == "linkedin") {
